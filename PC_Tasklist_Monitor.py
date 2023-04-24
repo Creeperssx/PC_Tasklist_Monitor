@@ -193,7 +193,7 @@ applicationClassifiction=ApplicationClassifiction()
 import telebot
 import json
 
-bot = telebot.TeleBot("6221379003:AAHlaGM4Yxxt_q8rsCu2Dvh6tZpWj_jXQP4")
+bot = telebot.TeleBot("Token")
 
 @bot.message_handler(commands=['start', 'help','hello'])
 def send_welcome(message):
